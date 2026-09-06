@@ -1,0 +1,9 @@
+{
+  "_comment": "Copy this file to postwright.config.json (gitignored) and fill in real, machine-local paths. Every key is optional: an unset key falls back to its environment variable, then to a generic platform default. See src/core/config.js for the exact resolution order.",
+  "paths": {
+    "secretFile": "~/.postwright/.env",
+    "browserHarness": "/path/to/browser-harness",
+    "diagif": "/path/to/diagif/bin/diagif.js",
+    "claudeCli": "/path/to/claude-code/bin/claude"
+  }
+}

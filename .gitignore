@@ -1,0 +1,17 @@
+node_modules/
+drafts/
+out/
+*.log
+__pycache__/
+*.pyc
+
+# Local research/agent scratch space. May contain real payloads. Never commit.
+.cache/
+
+# Machine-local paths and any resolved credentials source. Never commit.
+postwright.config.json
+
+# The operator's own measured account figures. Never commit.
+postwright.evidence.json
+.env
+.env.*

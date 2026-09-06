@@ -1,0 +1,9 @@
+{
+  "name": "postwright",
+  "version": "0.1.0",
+  "description": "Evidence-gated topic drafts and operator-controlled release",
+  "type": "commonjs",
+  "bin": { "postwright": "bin/postwright.js" },
+  "engines": { "node": ">=24" },
+  "scripts": { "test": "node --test --test-concurrency=1 \"test/unit/*.test.js\" \"test/integration/*.test.js\"" }
+}

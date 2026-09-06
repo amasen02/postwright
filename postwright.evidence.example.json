@@ -1,0 +1,5 @@
+{
+  "_comment": "Optional. Replaces a rule's evidence sentence with your own measured finding. Copy to postwright.evidence.json, which is gitignored, so your account figures stay private.",
+  "R1": "on my account, one-line questions reached N times the audience of a full explainer",
+  "R6": "my LinkedIn posts with links in the body reached N% of the impressions of posts without"
+}
